@@ -10,12 +10,18 @@ body {
 }
 
 /* Section */ 
-#Subscribe {
-  border-groove: 1px solid black;
-  background-color: lightblue;
-  padding: 25px 50px 75px 100px;
-  margin: 25px 50px 75px 100px;;
-  text-align: justify;
+.box {
+  background-color: white;
+  padding: 90px;
+  border: 2px solid red;
+  border-radius: 8px;
+  width: 850px;
+  height: 350px;
+  margin-top: 200px;
+  margin-left: 150px;
+  
+  
+  
 }
 
 h1{
@@ -25,9 +31,6 @@ h1{
 p {
   text-align: center;
   color: black;
-}
-.Subscribe {
-  border-groove: white;
 }
 
 label {
