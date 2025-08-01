@@ -5,3 +5,39 @@
 }
 
 /* write your CSS here */
+body {
+  background-color: #e6e9fb;
+}
+
+/* Section */ 
+#Subscribe {
+  border-groove: 1px solid black;
+  background-color: lightblue;
+  padding: 25px 50px 75px 100px;
+  margin: 25px 50px 75px 100px;;
+  text-align: justify;
+}
+
+h1{
+  text-align: center;
+  color: black;
+}
+p {
+  text-align: center;
+  color: black;
+}
+.Subscribe {
+  border-groove: white;
+}
+
+label {
+  display: block;
+  font:
+    1rem "Fira Sans",
+    sans-serif;
+}
+
+input,
+label {
+  margin: 0.4rem 0;
+}
