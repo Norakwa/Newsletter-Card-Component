@@ -8,16 +8,6 @@
   src: url("fonts/Marlin.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "Mafra W01 Medium";
-  src: url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.eot");
-  src: url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/a70fefe1392a02916556815d58e164fb.svg#Mafra W01 Medium")format("svg");
-}
-
 /* write your CSS here */
 body {
   background-color: #e6e9fb;
@@ -39,12 +29,19 @@ body {
 h1{
   text-align: center;
   color: black;
-  font-family: "Mafra W01 Medium";
+  font-family: Garamond, serif;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  font-size: 35px;
 }
 p {
   text-align: center;
-  color: black;
   font-family: "Marlin", sans-serif;
+}
+
+.sign {
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 label {
@@ -57,4 +54,20 @@ label {
 input,
 label {
   margin: 0.4rem 0;
+}
+
+.btn {
+  background-color: #111827; /* Green */
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+
+.agree {
+  letter-spacing: 1px;
+  font-size: 10px;
 }
