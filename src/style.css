@@ -13,20 +13,20 @@ body {
 .box {
   background-color: white;
   padding: 90px;
-  border: 2px solid red;
-  border-radius: 8px;
-  width: 850px;
-  height: 350px;
-  margin-top: 200px;
-  margin-left: 150px;
-  
-  
-  
+  border: 2px solid white;
+  border-radius: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 20px; /* applies margin around the element */
 }
+
 
 h1{
   text-align: center;
   color: black;
+  font-family: Mafra W01 Large;
 }
 p {
   text-align: center;
