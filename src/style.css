@@ -24,6 +24,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 20px; /* applies margin around the element */
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-left: 40px;
+
 }
 
 h1{
@@ -41,7 +46,15 @@ p {
 
 .sign {
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 15px;
+  
+}
+
+.mail {
+display: inline-block;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
 }
 
 label {
