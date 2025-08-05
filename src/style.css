@@ -9,11 +9,13 @@
 }
 
 /* write your CSS here */
+
+/* base stylev */
 body {
   background-color: #e6e9fb;
 }
 
-/* Section */ 
+/* Main box */ 
 .box {
   background-color: white;
   padding: 90px;
@@ -28,9 +30,10 @@ body {
   padding-right: 40px;
   padding-bottom: 50px;
   padding-left: 40px;
-
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
+/* Heading */
 h1{
   text-align: center;
   color: black;
@@ -39,29 +42,38 @@ h1{
   line-height: 1.8;
   font-size: 35px;
 }
+
+/* Paragraph */
 p {
   text-align: center;
   font-family: "Marlin", sans-serif;
 }
 
+/* Description Text */
 .sign {
-  letter-spacing: 1px;
   font-size: 15px;
-  
 }
 
-.mail {
-display: inline-block;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
+/* Email Input Section */
+.email {
+  margin-bottom: 20px;
 }
 
-label {
+.email label {
   display: block;
-  font:1rem "Fira Sans",
-    sans-serif;
+  text-align: left;
+  font:1rem "Fira Sans";
 }
+
+.email input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
 
 input,
 label {
@@ -79,6 +91,7 @@ label {
   font-size: 16px
 }
 
+/* Agreement Text */
 .agree {
   letter-spacing: 1px;
   font-size: 10px;
